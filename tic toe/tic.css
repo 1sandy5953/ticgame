@@ -1,0 +1,89 @@
+<style>
+	/* CSS Code */
+	/* Heading */
+	h1 {
+		color: rgb(177, 218, 29);
+		font-size: 45px;
+	}
+	body {
+		background-image: url("istockphoto-1316395411-170667a.jpg");
+		/* Full height */
+		height: 100%;
+
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	  }
+	img{
+		border-radius: 8px;
+		height: 200px;
+		width: 200px;
+		position: absolute;
+		left: 15%;
+		
+		
+		
+	}
+
+
+
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 2px solid rgb(21, 11, 112);
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+		background-color: rgb(93, 167, 167);
+		src:lose.gif ;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 150px;
+		height: 40px;
+		border: 1px solid dodgerblue;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: dodgerblue;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(238, 26, 132);
+		font-size: 30px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+		color: rgb(134, 7, 7);
+		font-family: Indie Flower;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Indie Flower,
+			Geneva, Tahoma, sans-serif;
+			
+		color: rgb(1, 24, 27);
+		font-size:25px;
+		
+	}
+</style>
